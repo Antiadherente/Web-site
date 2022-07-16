@@ -90,7 +90,6 @@
    color: #fff;
    font-size: 30px;
    font-weight: 600;
-   letter-spacing: 1px;
    margin-bottom: 10px;
 }
 
@@ -99,13 +98,6 @@
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 1px;
-}
-
-.about .imgBx{
-    width: 50%;
-    background-size: cover;
-    background-position: center;
-    
 }
 
 /* SERVICES */
@@ -126,6 +118,10 @@
     margin: top 60px;
 }
 
+.text{
+    margin-bottom: 40px;
+}
+
 .services .container .serviceBx{
     position: relative;
     background-color: #fff;
@@ -140,8 +136,7 @@
     max-width: 100px;
 }
 
-.services .container .serviceBx h2{
-    
+.services .container .serviceBx h2{ 
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 1px;
@@ -245,13 +240,62 @@
     padding:100px;
     background: #162c3b;
     text-align: center;
+    background-color: #3f8ffc;
 }
 
-.imgBx2{
-    background-size: cover;
-    background-position: center;
-    width: 50%;
+.form .inputBx{
+    margin-bottom: 40px;
 }
+
+.form .inputBx input{
+    width: 50%;
+    background: transparent;
+    box-shadow: none;
+    border:none;
+    outline:none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.form .inputBx input::placeholder{
+    color:#fff
+
+}
+
+.form .inputBx textarea{
+    width: 50%;
+    background: transparent;
+    box-shadow: none;
+    border:none;
+    outline:none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    min-height: 150px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+
+}
+
+.form .inputBx textarea::placeholder{
+    color:#fff
+}
+
+.form .inputBx input[type="submit"]{
+    width: 150px;
+    background: #fff;
+    color: #111;
+    cursor:pointer;
+    font-weight:400;
+}
+
+
+
+
+
 
 
 
