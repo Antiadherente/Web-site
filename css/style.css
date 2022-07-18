@@ -213,7 +213,7 @@
 }
 
 .testimonials .container .contentBx{
-     background: #fff;
+     background: #3f8ffc;
      padding: 60px 50px;
      width: 550px;
      display: flex;
@@ -223,7 +223,7 @@
 }
 
 .testimonials .container .contentBx p{
-    font-size: italic;
+    color: #fff;
 
 }
 
@@ -231,7 +231,7 @@
     width: 100%;
     text-align: end;
     font-weight: 500;
-    color:#3f8ffc;
+    color:#bfc4cc;
 }
 
 /* CONTACT */
