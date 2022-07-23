@@ -108,7 +108,6 @@
 /* SERVICES */
 
 .services{
-    
     background: #12222d ;
     padding: 100px;
     text-align: center;
@@ -128,6 +127,7 @@
 }
 
 .services .container .serviceBx{
+    border-radius: 100px;
     position: relative;
     background-color: #fff;
     width: 350px;
@@ -218,6 +218,9 @@
 }
 
 .testimonials .container .contentBx{
+     border-top-left-radius: 70px;
+     border-top-right-radius: 70px;
+     border-bottom-left-radius: 70px;
      background: #3f8ffc;
      padding: 60px 50px;
      width: 550px;
@@ -233,11 +236,14 @@
 }
 
 .testimonials .container .contentBx h3{
-    width: 100%;
+
     text-align: end;
     font-weight: 500;
-    color:#bfc4cc;
+    color: rgb(0,0,0,0.90);
+    
 }
+
+
 
 /* CONTACT */
 
